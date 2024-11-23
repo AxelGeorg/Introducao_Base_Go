@@ -1,0 +1,42 @@
+
+Modulo: conjunto de pacotes que compôem seu projeto
+
+Exemplo para criar:
+    go mod init modulo
+
+go.mod se assemelhar ao package.json, centraliza as dependecias
+
+
+
+
+--- Executar arquivo main
+go run main.go
+
+
+--- Compilar e gerar executavel 
+go build
+
+--Para Executar:
+./modulo 
+
+
+
+
+--- Visibilidade de funcoes
+
+Primeira letra maiuscula - Público
+Primeira letra minuscula - Privado
+
+
+--- Atualiza dependecias do go.mod
+
+go mod tidy
+
+
+--- Declaração de variavel (inferencia de tipo)
+
+variavel2 := "variavel 2"
+
+
+
+
