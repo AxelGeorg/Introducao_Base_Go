@@ -24,7 +24,7 @@ func main() {
 	slice = append(slice, 18)
 	fmt.Println(slice)
 
-	slice2 := array2[1:3]
+	slice2 := array2[1:3] //pego um pedaço do array e jogo no slice... do indice 1 até o o indice 2(antes do indice 3), funciona como ponteiro
 	fmt.Println(slice2)
 
 	array2[1] = "Posição Alterada"
