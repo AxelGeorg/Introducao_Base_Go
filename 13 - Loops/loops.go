@@ -43,5 +43,4 @@ func main() {
 	//for {
 	//	fmt.Println("Executando infinitamente")
 	//	time.Sleep(time.Second)
-	//
 }
